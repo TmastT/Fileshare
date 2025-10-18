@@ -132,3 +132,8 @@ awscli/
 .DS_Store
 Thumbs.db
 desktop.ini
+*.db
+*.sqlite
+instance/
+.env
+*.pyc
