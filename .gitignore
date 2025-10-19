@@ -137,4 +137,6 @@ desktop.ini
 instance/
 .env
 *.pyc
-.vscode/ 
+.vscode/
+config.py
+migrations/
