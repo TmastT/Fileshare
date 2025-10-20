@@ -5,17 +5,7 @@
 {% block content %}
 <div class="dashboard-layout">
     <aside class="dashboard-menu" role="navigation" aria-label="Dashboard menu">
-        <ul>
-            <li><a href="{{ url_for('dashboard') }}" class="{% if request.endpoint == 'dashboard' %}active{% endif %}">Overview</a></li>
-            <li><a href="{{ url_for('upload') }}">Upload</a></li>
-            <li><a href="{{ url_for('files') }}">My Files</a></li>
-            <li><a href="{{ url_for('shared_files') }}">Shared with me</a></li>
-            <li><a href="{{ url_for('recent') }}">Recent</a></li>
-            <li><a href="{{ url_for('favorites') }}">Favorites</a></li>
-            <li><a href="{{ url_for('settings') }}">Settings</a></li>
-            <li><a href="{{ url_for('profile') }}">Profile</a></li>
-            <li><a href="{{ url_for('logout') }}" class="danger">Logout</a></li>
-        </ul>
+
     </aside>
 
     <main class="dashboard-content">
